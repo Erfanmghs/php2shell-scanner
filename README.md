@@ -2,8 +2,6 @@
 
 Command-line tool for **authorized** assessment of PHP hosts against core PHP2Shell RCEs (**CVE-2026-109618** and **CVE-2026-109619**). Built for rapid internal asset monitoring after public disclosure, before full patching, without dropping a full exploit chain on every target. Run only on systems you own or have written permission to test.
 
-**Maintainers:** optional nested workdir at `php2shell-scanner/` (gitignored). Publish `scanner.py`, `requirements.txt`, `README.md`, and `LICENSE` into the repo root with `./sync-from-workdir.sh [path]`; `dev/` is never copied.
-
 ## Download and install
 
 Get the source from GitHub (clone or ZIP):
